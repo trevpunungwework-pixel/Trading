@@ -8,6 +8,6 @@ data/banking.mv.db
 data/banking.trace.db
 data/*.db
 data/*.lock.db
-DatabaseUtils.props
+/DatabaseUtils.props
 *.log
 .DS_Store
