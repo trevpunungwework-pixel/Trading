@@ -1,0 +1,44 @@
+# H2 mappings for Weka InstanceQuery (also placed at weka/experiment/DatabaseUtils.props)
+jdbcDriver=org.h2.Driver
+jdbcURL=jdbc:h2:file:./data/banking;AUTO_SERVER=TRUE;DB_CLOSE_DELAY=-1
+
+CHAR=0
+CHARACTER=0
+VARCHAR=0
+CHARACTER\ VARYING=0
+CHARACTER_VARYING=0
+LONGVARCHAR=9
+CLOB=9
+TEXT=0
+STRING=0
+BOOLEAN=1
+BIT=1
+ENUM=0
+DOUBLE=2
+DOUBLE\ PRECISION=2
+FLOAT=2
+REAL=7
+INTEGER=5
+INT=5
+SMALLINT=4
+TINYINT=3
+BIGINT=6
+DECIMAL=2
+NUMERIC=2
+NUMBER=2
+DATE=8
+TIME=10
+TIMESTAMP=11
+DATETIME=11
+
+CREATE_STRING=VARCHAR(255)
+CREATE_INT=INT
+CREATE_DOUBLE=DOUBLE
+CREATE_DATE=TIMESTAMP
+DateFormat=yyyy-MM-dd HH:mm:ss
+
+checkUpperCaseNames=false
+checkLowerCaseNames=false
+checkForTable=true
+setAutoCommit=true
+createIndex=false

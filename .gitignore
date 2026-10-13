@@ -1,0 +1,13 @@
+target/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+data/banking.mv.db
+data/banking.trace.db
+data/*.db
+data/*.lock.db
+/DatabaseUtils.props
+*.log
+.DS_Store

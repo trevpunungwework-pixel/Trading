@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: credit-risk-scoring
+  datasource:
+    url: jdbc:h2:file:./data/banking;AUTO_SERVER=TRUE;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: false
+
+server:
+  port: 8080
+
+credit:
+  risk:
+    model-path: models/credit-logit.model
+    arff-path: data/credit-g.arff
+    # Probability of default (class "bad") thresholds
+    approve-threshold: 0.30
+    decline-threshold: 0.55
+    model-version: credit-logit-1.0

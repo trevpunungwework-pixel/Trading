@@ -1,0 +1,32 @@
+German Credit — loan_applications profile (Tablesaw)
+=====================================================
+row_count=1000
+column_count=22
+
+Missing values per column:
+  ID=0
+  checking_status=0
+  duration=0
+  credit_history=0
+  purpose=0
+  credit_amount=0
+  savings_status=0
+  employment=0
+  installment_commitment=0
+  personal_status=0
+  other_parties=0
+  residence_since=0
+  property_magnitude=0
+  age=0
+  other_payment_plans=0
+  housing=0
+  existing_credits=0
+  job=0
+  num_dependents=0
+  own_telephone=0
+  foreign_worker=0
+  class=0
+
+Class balance ("class"):
+  bad=300
+  good=700
